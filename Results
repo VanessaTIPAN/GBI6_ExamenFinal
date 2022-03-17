@@ -17,3 +17,10 @@ df <- read_csv("mRNA_expr.csv")
   df_l2 <- select(df_l, -bcr_patient_barcode)
   return (df_l2)
 }
+
+Genere la data ```df_long``` utilizandola función ```long_df```. 
+La tabla resultante tendrá tres columnas: ```dataset, gen, expresion_level```.  
+
+df_long <- long_df(df)
+
+prueba <- df_long %>% group_by(gen)
