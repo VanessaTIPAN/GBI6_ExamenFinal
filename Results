@@ -38,6 +38,10 @@ cancer_mama <- prueba %>% group_by(gen) %>% mutate(row = row_number()) %>%
 descr(cancer_mama) %>% tab_df(title = "Estadistica descriptiva del cancer de MAMA y su nivel de expresion de los diferentes genes",
                               file = "mRNA_expr_summary.doc") 
                               
+                              
+1.6 Interprete los resultados de la tabla resultante de la sección 1.5. 
+Se obtuvo8 genes diferentes que se expresaron en el cancer de mama, nos muestra que la media mayor, es decir, se expreso de mayor
+forma en los genes dataset con 3,12, seguido de MUC1 con 1,74. 
 
 
 Pregunta 2 VISUALIZACION DE DATOS  
