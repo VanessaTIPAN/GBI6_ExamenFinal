@@ -3,3 +3,7 @@ Pregunta 1: MANIPULACIÓN DE DATOS [4 PUNTOS]**
 
 1.1 Defina su directorio de trabajo. 
 setwd('C:/Users/Vanesa/Downloads/GBI6_ExamenFinal')
+
+1.2. Cargue la data "mRNA_expr.csv"
+library(readr)
+df <- read_csv("mRNA_expr.csv")
