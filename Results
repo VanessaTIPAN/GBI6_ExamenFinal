@@ -69,4 +69,9 @@ cancertype <- list(
 cancertype_boxplots = lapply(cancertype, function(x) {ggplot(x, aes(dataset, expresion_level, col = dataset)) +
     geom_boxplot() + theme(legend.position='none') + labs(x = "", y = "Expression level")})
      
+2.3 Guarde en el subdirectorio ```result``` el tercer plot de la lista ```cancertype_boxplots``` con el nombre ```boxplot3.png```. La definición de a figura debe ser de 300dpi. 
+
+cancertype_boxplots[3]
+ggsave("boxplot3.png", width = 6, height = 8, dpi = 300) 
+
 
