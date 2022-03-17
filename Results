@@ -37,3 +37,21 @@ cancer_mama <- prueba %>% group_by(gen) %>% mutate(row = row_number()) %>%
 
 descr(cancer_mama) %>% tab_df(title = "Estadistica descriptiva del cancer de MAMA y su nivel de expresion de los diferentes genes",
                               file = "mRNA_expr_summary.doc") 
+                              
+
+
+Pregunta 2 VISUALIZACION DE DATOS  
+
+Para esta pregunta tiene que utilizar la data ```df_long```. 
+
+ 2.1 Cree la funcion ```tcga_boxplots``` para visualizar boxplots y jitterplots. El único parámetro de la función es ```dataset```. La función debe crear un boxplot de los niveles de expresión para cada gen.
+
+library(ggplot2)
+
+tcga_boxplots <- function(dataset) {
+  library(ggplot2)
+  return(ggplot (dataset, aes(x = gen, y = expresion_level, col = gen)) + labs(x="Gen", y = "Expression level")
+         + geom_boxplot() + geom_jitter(size=0.10))}
+tcga_boxplots(df_long)
+
+                              
