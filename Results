@@ -1,1 +1,5 @@
+# PREGUNTAS
+Pregunta 1: MANIPULACIÓN DE DATOS [4 PUNTOS]**
 
+1.1 Defina su directorio de trabajo. 
+setwd('C:/Users/Vanesa/Downloads/GBI6_ExamenFinal')
