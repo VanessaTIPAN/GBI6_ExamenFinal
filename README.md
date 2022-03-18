@@ -13,9 +13,7 @@
 - Procesador Intel(R) Core (TM) i3-7020U CPU @ 2.30GHz (4CPUs). 2,3 GHz
 - Memoria: 4096 MB RAM
 - Version: DirectX 12
-## Versión de Python/Anaconda y de cada uno de los módulos/paquetes y utilizados
-- Version: Pyton: 3.9
+
 ## Paquetes/modulos/librerias 
 
 
-## Explicación de la data utilizada
