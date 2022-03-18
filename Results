@@ -239,11 +239,7 @@ graficos_cancer[[5]][[2]]
 ggsave("regresion11.pdf", width = 6, height = 8, dpi = 300) 
 
 
+2.7. Interprete los resultados de las figuras ```boxplot3.png``` y ```regresion11.pdf```.
+ Fugura boxplot3: el nivel de expresion nde Lucs es de 0.7. Figura regresion: el nivel de expresion para FN1, atraviesa por el -2 y en esta zona se concentran la mayor parte de puntos, es decir es menos disperso. 
 
 
-
-
-
-
-
-ggsave("regresion11.pdf", width = 6, height = 8, dpi = 300) 
