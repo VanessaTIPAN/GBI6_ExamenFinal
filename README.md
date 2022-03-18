@@ -14,6 +14,6 @@
 - Memoria: 4096 MB RAM
 - Version: DirectX 12
 
-## Paquetes/modulos/librerias 
+
 
 
